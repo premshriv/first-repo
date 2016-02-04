@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="1" name="co.uk.team.teamwebservice.TeamWebServiceInterationlTest" time="2.649" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_51\jre\bin"/>
+    <property name="java.vm.version" value="25.51-b03"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="test" value="co.uk.team.teamwebservice.TeamWebServiceInterationlTest#shouldReturnBadRequest"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\User\Documents\NetBeansProjects\TeamWebService"/>
+    <property name="java.runtime.version" value="1.8.0_51-b16"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_51\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\User\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\NetBeans 8.0.2\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files\NetBeans 8.0.2\java\maven\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_51\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;c:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\User"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="User"/>
+    <property name="java.class.path" value="C:\Program Files\NetBeans 8.0.2\java\maven\boot\plexus-classworlds-2.4.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_51\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dtest=co.uk.team.teamwebservice.TeamWebServiceInterationlTest#shouldReturnBadRequest -Dmaven.ext.class.path=C:\Program Files\NetBeans 8.0.2\java\maven-nblib\netbeans-eventspy.jar surefire:test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_51"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_51\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_51\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_51\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_51\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_51\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_51\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_51\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_51\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_51\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\NetBeans 8.0.2\java\maven"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="co.uk.team.teamwebservice.TeamWebServiceInterationlTest" name="shouldReturnBadRequest" time="0.189">
+    <failure message="expected:&lt;400 [Bad Request]&gt; but was:&lt;400 [Missing request header &amp;#39;Authorization&amp;#39; for method parameter of type String]&gt;" type="junit.framework.ComparisonFailure">junit.framework.ComparisonFailure: expected:&lt;400 [Bad Request]&gt; but was:&lt;400 [Missing request header &amp;#39;Authorization&amp;#39; for method parameter of type String]&gt;
+	at junit.framework.Assert.assertEquals(Assert.java:85)
+	at junit.framework.Assert.assertEquals(Assert.java:91)
+	at co.uk.team.teamwebservice.TeamWebServiceInterationlTest.shouldReturnBadRequest(TeamWebServiceInterationlTest.java:132)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:45)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:42)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:74)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:85)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:86)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:241)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:87)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:180)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:45)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:123)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+</failure>
+    <system-out>2016-02-04 07:56:55 DEBUG SpringJUnit4ClassRunner:129 - SpringJUnit4ClassRunner constructor called with [class co.uk.team.teamwebservice.TeamWebServiceInterationlTest]
+2016-02-04 07:56:55 DEBUG BootstrapUtils:96 - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+2016-02-04 07:56:55 DEBUG BootstrapUtils:79 - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+2016-02-04 07:56:55 DEBUG BootstrapUtils:146 - Instantiating TestContextBootstrapper for test class [co.uk.team.teamwebservice.TeamWebServiceInterationlTest] from class [org.springframework.test.context.web.WebTestContextBootstrapper]
+2016-02-04 07:56:55 DEBUG AbstractDelegatingSmartContextLoader:97 - Delegating to AnnotationConfigWebContextLoader to process context configuration [ContextConfigurationAttributes@50c87b21 declaringClass = &apos;co.uk.team.teamwebservice.TeamWebServiceInterationlTest&apos;, classes = &apos;{class co.uk.team.teamwebservice.configuration.TeamConfiguration}&apos;, locations = &apos;{}&apos;, inheritLocations = true, initializers = &apos;{}&apos;, inheritInitializers = true, name = [null], contextLoaderClass = &apos;org.springframework.test.context.ContextLoader&apos;].
+2016-02-04 07:56:55 DEBUG ActiveProfilesUtils:84 - Could not find an &apos;annotation declaring class&apos; for annotation type [org.springframework.test.context.ActiveProfiles] and class [co.uk.team.teamwebservice.TeamWebServiceInterationlTest]
+2016-02-04 07:56:55 DEBUG WebTestContextBootstrapper:130 - @TestExecutionListeners is not present for class [co.uk.team.teamwebservice.TeamWebServiceInterationlTest]: using defaults.
+2016-02-04 07:56:55 INFO  WebTestContextBootstrapper:259 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2016-02-04 07:56:55 INFO  WebTestContextBootstrapper:185 - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@14bf9759, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@5f341870, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@553f17c, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4f7d0008, org.springframework.test.context.transaction.TransactionalTestExecutionListener@271053e1, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@589838eb]
+2016-02-04 07:56:55 DEBUG ProfileValueUtils:71 - Retrieved @ProfileValueSourceConfiguration [null] for test class [co.uk.team.teamwebservice.TeamWebServiceInterationlTest]
+2016-02-04 07:56:55 DEBUG ProfileValueUtils:83 - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [co.uk.team.teamwebservice.TeamWebServiceInterationlTest]
+2016-02-04 07:56:55 DEBUG ProfileValueUtils:71 - Retrieved @ProfileValueSourceConfiguration [null] for test class [co.uk.team.teamwebservice.TeamWebServiceInterationlTest]
+2016-02-04 07:56:55 DEBUG ProfileValueUtils:83 - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [co.uk.team.teamwebservice.TeamWebServiceInterationlTest]
+2016-02-04 07:56:55 DEBUG AbstractDirtiesContextTestExecutionListener:141 - Before test class: context [DefaultTestContext@27c20538 testClass = TeamWebServiceInterationlTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@72d818d1 testClass = TeamWebServiceInterationlTest, locations = &apos;{}&apos;, classes = &apos;{class co.uk.team.teamwebservice.configuration.TeamConfiguration}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, resourceBasePath = &apos;src/main/webapp&apos;, contextLoader = &apos;org.springframework.test.context.web.WebDelegatingSmartContextLoader&apos;, parent = [null]]], class annotated with @DirtiesContext [false] with mode [null].
+2016-02-04 07:56:55 DEBUG ProfileValueUtils:71 - Retrieved @ProfileValueSourceConfiguration [null] for test class [co.uk.team.teamwebservice.TeamWebServiceInterationlTest]
+2016-02-04 07:56:55 DEBUG ProfileValueUtils:83 - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [co.uk.team.teamwebservice.TeamWebServiceInterationlTest]
+2016-02-04 07:56:56 DEBUG AbstractDelegatingSmartContextLoader:107 - Delegating to AnnotationConfigWebContextLoader to load context from [WebMergedContextConfiguration@72d818d1 testClass = TeamWebServiceInterationlTest, locations = &apos;{}&apos;, classes = &apos;{class co.uk.team.teamwebservice.configuration.TeamConfiguration}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, resourceBasePath = &apos;src/main/webapp&apos;, contextLoader = &apos;org.springframework.test.context.web.WebDelegatingSmartContextLoader&apos;, parent = [null]].
+2016-02-04 07:56:56 DEBUG AbstractGenericWebContextLoader:115 - Loading WebApplicationContext for merged context configuration [WebMergedContextConfiguration@72d818d1 testClass = TeamWebServiceInterationlTest, locations = &apos;{}&apos;, classes = &apos;{class co.uk.team.teamwebservice.configuration.TeamConfiguration}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, resourceBasePath = &apos;src/main/webapp&apos;, contextLoader = &apos;org.springframework.test.context.web.WebDelegatingSmartContextLoader&apos;, parent = [null]].
+2016-02-04 07:56:56 DEBUG StandardServletEnvironment:109 - Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2016-02-04 07:56:56 DEBUG StandardServletEnvironment:109 - Adding [servletContextInitParams] PropertySource with lowest search precedence
+2016-02-04 07:56:56 DEBUG StandardServletEnvironment:109 - Adding [systemProperties] PropertySource with lowest search precedence
+2016-02-04 07:56:56 DEBUG StandardServletEnvironment:109 - Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-02-04 07:56:56 DEBUG StandardServletEnvironment:126 - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2016-02-04 07:56:56 DEBUG AnnotationConfigWebContextLoader:170 - Registering annotated classes: {class co.uk.team.teamwebservice.configuration.TeamConfiguration}
+2016-02-04 07:56:56 INFO  GenericWebApplicationContext:573 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@6f3b5d16: startup date [Thu Feb 04 07:56:56 GMT 2016]; root of context hierarchy
+2016-02-04 07:56:56 DEBUG StandardServletEnvironment:174 - Replacing [servletContextInitParams] PropertySource with [servletContextInitParams]
+2016-02-04 07:56:56 DEBUG GenericWebApplicationContext:607 - Bean factory for org.springframework.web.context.support.GenericWebApplicationContext@6f3b5d16: org.springframework.beans.factory.support.DefaultListableBeanFactory@293a5bf6: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,teamConfiguration]; root of factory hierarchy
+2016-02-04 07:56:56 DEBUG DefaultListableBeanFactory:873 - Registering scope &apos;request&apos; with implementation [org.springframework.web.context.request.RequestScope@74235045]
+2016-02-04 07:56:56 DEBUG DefaultListableBeanFactory:873 - Registering scope &apos;session&apos; with implementation [org.springframework.web.context.request.SessionScope@30c15d8b]
+2016-02-04 07:56:56 DEBUG DefaultListableBeanFactory:873 - Registering scope &apos;globalSession&apos; with implementation [org.springframework.web.context.request.SessionScope@5e0e82ae]
+2016-02-04 07:56:56 DEBUG DefaultListableBeanFactory:873 - Registering scope &apos;application&apos; with implementation [org.springframework.web.context.support.ServletContextScope@6b2ea799]
+2016-02-04 07:56:56 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean &apos;org.springframework.context.annotation.internalConfigurationAnnotationProcessor&apos;
+2016-02-04 07:56:56 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean &apos;org.springframework.context.annotation.internalConfigurationAnnotationProcessor&apos;
+2016-02-04 07:56:56 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean &apos;org.springframework.context.annotation.internalConfigurationAnnotationProcessor&apos; to allow for resolving potential circular references
+2016-02-04 07:56:56 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean &apos;org.springframework.context.annotation.internalConfigurationAnnotationProcessor&apos;
+2016-02-04 07:56:56 DEBUG StandardEnvironment:109 - Adding [systemProperties] PropertySource with lowest search precedence
+2016-02-04 07:56:56 DEBUG StandardEnvironment:109 - Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-02-04 07:56:56 DEBUG StandardEnvironment:126 - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2016-02-04 07:56:56 DEBUG PathMatchingResourcePatternResolver:631 - Looking for matching resources in directory tree [C:\Users\User\Documents\NetBeansProjects\TeamWebService\target\test-classes\co\uk\team\teamwebservice]
+2016-02-04 07:56:56 DEBUG PathMatchingResourcePatternResolver:693 - Searching directory [C:\Users\User\Documents\NetBeansProjects\TeamWebService\target\test-classes\co\uk\team\teamwebservice] for files matching pattern [C:/Users/User/Documents/NetBeansProjects/TeamWebService/target/test-classes/co/uk/team/teamwebservice/**/*.class]
+2016-02-04 07:56:56 DEBUG PathMatchingResourcePatternResolver:631 - Looking for matching resources in directory tree [C:\Users\User\Documents\NetBeansProjects\TeamWebService\target\classes\co\uk\team\teamwebservice]
+2016-02-04 07:56:56 DEBUG PathMatchingResourcePatternResolver:693 - Searching directory [C:\Users\User\Documents\NetBeansProjects\TeamWebService\target\classes\co\uk\team\teamwebservice] for files matching pattern [C:/Users/User/Documents/NetBeansProjects/TeamWebService/target/classes/co/uk/team/teamwebservice/**/*.class]
+2016-02-04 07:56:56 DEBUG PathMatchingResourcePatternResolver:693 - Searching directory [C:\Users\User\Documents\NetBeansProjects\TeamWebService\target\classes\co\uk\team\teamwebservice\configuration] for files matching pattern [C:/Users/User/Documents/NetBeansProjects/TeamWebService/target/classes/co/uk/team/teamwebservice/**/*.class]
+2016-02-04 07:56:56 DEBUG PathMatchingResourcePatternResolver:693 - Searching directory [C:\Users\User\Documents\NetBeansProjects\TeamWebService\target\classes\co\uk\team\teamwebservice\controller] for files matching pattern [C:/Users/User/Documents/NetBeansProjects/TeamWebService/target/classes/co/uk/team/teamwebservice/**/*.class]
+2016-02-04 07:56:56 DEBUG PathMatchingResourcePatternResolver:693 - Searching directory [C:\Users\User\Documents\NetBeansProjects\TeamWebService\target\classes\co\uk\team\teamwebservice\model] for files matching pattern [C:/Users/User/Documents/NetBeansProjects/TeamWebService/target/classes/co/uk/team/teamwebservice/**/*.class]
+2016-02-04 07:56:56 DEBUG PathMatchingResourcePatternResolver:693 - Searching directory [C:\Users\User\Documents\NetBeansProjects\TeamWebService\target\classes\co\uk\team\teamwebservice\service] for files matching pattern [C:/Users/User/Documents/NetBeansProjects/TeamWebService/target/classes/co/uk/team/teamwebservice/**/*.class]
+2016-02-04 07:56:56 DEBUG PathMatchingResourcePatternResolver:424 - Resolved location pattern [classpath*:co/uk/team/teamwebservice/**/*.class] to resources [file [C:\Users\User\Documents\NetBeansProjects\TeamWebService\target\test-classes\co\uk\team\teamwebservice\TeamWebServiceAppTest.class], file [C:\Users\User\Documents\NetBeansProjects\TeamWebService\target\test-classes\co\uk\team\teamwebservice\TeamWebServiceInterationlTest.class], file [C:\Users\User\Documents\NetBeansProjects\TeamWebService\target\classes\co\uk\team\teamwebservice\configuration\CORSFilter.class], file [C:\Users\User\Documents\NetBeansProjects\TeamWebService\target\classes\co\uk\team\teamwebservice\configuration\TeamConfiguration.class], file [C:\Users\User\Documents\NetBeansProjects\TeamWebService\target\classes\co\uk\team\teamwebservice\configuration\TeamInitializer.class], file [C:\Users\User\Documents\NetBeansProjects\TeamWebService\target\classes\co\uk\team\teamwebservice\controller\TeamRestController.class], file [C:\Users\User\Documents\NetBeansProjects\TeamWebService\target\classes\co\uk\team\teamwebservice\model\Team.class], file [C:\Users\User\Documents\NetBeansProjects\TeamWebService\target\classes\co\uk\team\teamwebservice\service\AuthorisationService.class], file [C:\Users\User\Documents\NetBeansProjects\TeamWebService\target\classes\co\uk\team\teamwebservice\service\AuthorisationServiceImpl.class], file [C:\Users\User\Documents\NetBeansProjects\TeamWebService\target\classes\co\uk\team\teamwebservice\service\TeamService.class], file [C:\Users\User\Documents\NetBeansProjects\TeamWebService\target\classes\co\uk\team\teamwebservice\service\TeamServiceImpl.class]]
+2016-02-04 07:56:56 DEBUG ClassPathBeanDefinitionScanner:286 - Identified candidate component class: file [C:\Users\User\Documents\NetBeansProjects\TeamWebService\target\classes\co\uk\team\teamwebservice\controller\TeamRestController.class]
+2016-02-04 07:56:56 DEBUG ClassPathBeanDefinitionScanner:286 - Identified candidate component class: file [C:\Users\User\Documents\NetBeansProjects\TeamWebService\target\classes\co\uk\team\teamwebservice\service\AuthorisationServiceImpl.class]
+2016-02-04 07:56:56 DEBUG ClassPathBeanDefinitionScanner:286 - Identified candidate component class: file [C:\Users\User\Documents\NetBeansProjects\TeamWebService\target\classes\co\uk\team\teamwebservice\service\TeamServiceImpl.class]
+2016-02-04 07:56:56 DEBUG ConfigurationClassBeanDefinitionReader:164 - Registered bean definition for imported class &apos;org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration&apos;
+2016-02-04 07:56:56 DEBUG ConfigurationClassBeanDefinitionReader:256 - Registering bean definition for @Bean method org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.simpleControllerHandlerAdapter()
+2016-02-04 07:56:56 DEBUG ConfigurationClassBeanDefinitionReader:256 - Registering bean definition for @Bean method org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.requestMappingHandlerMapping()
+2016-02-04 07:56:56 DEBUG ConfigurationClassBeanDefinitionReader:256 - Registering bean definition for @Bean method org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.mvcContentNegotiationManager()
+2016-02-04 07:56:56 DEBUG ConfigurationClassBeanDefinitionReader:256 - Registering bean definition for @Bean method org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.viewControllerHandlerMapping()
+2016-02-04 07:56:56 DEBUG ConfigurationClassBeanDefinitionReader:256 - Registering bean definition for @Bean method org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.beanNameHandlerMapping()
+2016-02-04 07:56:56 DEBUG ConfigurationClassBeanDefinitionReader:256 - Registering bean definition for @Bean method org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.resourceHandlerMapping()
+2016-02-04 07:56:56 DEBUG ConfigurationClassBeanDefinitionReader:256 - Registering bean definition for @Bean method org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.mvcResourceUrlProvider()
+2016-02-04 07:56:56 DEBUG ConfigurationClassBeanDefinitionReader:256 - Registering bean definition for @Bean method org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.defaultServletHandlerMapping()
+2016-02-04 07:56:56 DEBUG ConfigurationClassBeanDefinitionReader:256 - Registering bean definition for @Bean method org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.requestMappingHandlerAdapter()
+2016-02-04 07:56:56 DEBUG ConfigurationClassBeanDefinitionReader:256 - Registering bean definition for @Bean method org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.mvcConversionService()
+2016-02-04 07:56:56 DEBUG ConfigurationClassBeanDefinitionReader:256 - Registering bean definition for @Bean method org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.mvcUriComponentsContributor()
+2016-02-04 07:56:56 DEBUG ConfigurationClassBeanDefinitionReader:256 - Registering bean definition for @Bean method org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.httpRequestHandlerAdapter()
+2016-02-04 07:56:56 DEBUG ConfigurationClassBeanDefinitionReader:256 - Registering bean definition for @Bean method org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.mvcValidator()
+2016-02-04 07:56:56 DEBUG ConfigurationClassBeanDefinitionReader:256 - Registering bean definition for @Bean method org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.mvcPathMatcher()
+2016-02-04 07:56:56 DEBUG ConfigurationClassBeanDefinitionReader:256 - Registering bean definition for @Bean method org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.mvcUrlPathHelper()
+2016-02-04 07:56:56 DEBUG ConfigurationClassBeanDefinitionReader:256 - Registering bean definition for @Bean method org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.mvcViewResolver()
+2016-02-04 07:56:56 DEBUG ConfigurationClassBeanDefinitionReader:256 - Registering bean definition for @Bean method org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.handlerExceptionResolver()
+2016-02-04 07:56:57 DEBUG ConfigurationClassEnhancer:111 - Successfully enhanced co.uk.team.teamwebservice.configuration.TeamConfiguration; enhanced class name is: co.uk.team.teamwebservice.configuration.TeamConfiguration$$EnhancerBySpringCGLIB$$6f09d18c
+2016-02-04 07:56:57 DEBUG ConfigurationClassPostProcessor:403 - Replacing bean definition &apos;teamConfiguration&apos; existing class name &apos;co.uk.team.teamwebservice.configuration.TeamConfiguration&apos; with enhanced class name &apos;co.uk.team.teamwebservice.configuration.TeamConfiguration$$EnhancerBySpringCGLIB$$6f09d18c&apos;
+2016-02-04 07:56:57 DEBUG ConfigurationClassEnhancer:111 - Successfully enhanced org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration; enhanced class name is: org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration$$EnhancerBySpringCGLIB$$23849991
+2016-02-04 07:56:57 DEBUG ConfigurationClassPostProcessor:403 - Replacing bean definition &apos;org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration&apos; existing class name &apos;org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration&apos; with enhanced class name &apos;org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration$$EnhancerBySpringCGLIB$$23849991&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean &apos;org.springframework.context.annotation.internalAutowiredAnnotationProcessor&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean &apos;org.springframework.context.annotation.internalAutowiredAnnotationProcessor&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean &apos;org.springframework.context.annotation.internalAutowiredAnnotationProcessor&apos; to allow for resolving potential circular references
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean &apos;org.springframework.context.annotation.internalAutowiredAnnotationProcessor&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean &apos;org.springframework.context.annotation.internalRequiredAnnotationProcessor&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean &apos;org.springframework.context.annotation.internalRequiredAnnotationProcessor&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean &apos;org.springframework.context.annotation.internalRequiredAnnotationProcessor&apos; to allow for resolving potential circular references
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean &apos;org.springframework.context.annotation.internalRequiredAnnotationProcessor&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean &apos;org.springframework.context.annotation.internalCommonAnnotationProcessor&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean &apos;org.springframework.context.annotation.internalCommonAnnotationProcessor&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean &apos;org.springframework.context.annotation.internalCommonAnnotationProcessor&apos; to allow for resolving potential circular references
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean &apos;org.springframework.context.annotation.internalCommonAnnotationProcessor&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean &apos;org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean &apos;org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean &apos;org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor&apos; to allow for resolving potential circular references
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean &apos;org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean &apos;org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean &apos;org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean &apos;org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor&apos; to allow for resolving potential circular references
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean &apos;org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor&apos;
+2016-02-04 07:56:57 DEBUG GenericWebApplicationContext:713 - Unable to locate MessageSource with name &apos;messageSource&apos;: using default [org.springframework.context.support.DelegatingMessageSource@563f38c4]
+2016-02-04 07:56:57 DEBUG GenericWebApplicationContext:737 - Unable to locate ApplicationEventMulticaster with name &apos;applicationEventMulticaster&apos;: using default [org.springframework.context.event.SimpleApplicationEventMulticaster@1ca3b418]
+2016-02-04 07:56:57 DEBUG UiApplicationContextUtils:85 - Unable to locate ThemeSource with name &apos;themeSource&apos;: using default [org.springframework.ui.context.support.ResourceBundleThemeSource@19e4653c]
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:741 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@293a5bf6: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,teamConfiguration,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor,teamRestController,authorisationService,teamService,org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration,simpleControllerHandlerAdapter,requestMappingHandlerMapping,mvcContentNegotiationManager,viewControllerHandlerMapping,beanNameHandlerMapping,resourceHandlerMapping,mvcResourceUrlProvider,defaultServletHandlerMapping,requestMappingHandlerAdapter,mvcConversionService,mvcUriComponentsContributor,httpRequestHandlerAdapter,mvcValidator,mvcPathMatcher,mvcUrlPathHelper,mvcViewResolver,handlerExceptionResolver]; root of factory hierarchy
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean &apos;org.springframework.context.annotation.internalConfigurationAnnotationProcessor&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean &apos;org.springframework.context.annotation.internalAutowiredAnnotationProcessor&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean &apos;org.springframework.context.annotation.internalRequiredAnnotationProcessor&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean &apos;org.springframework.context.annotation.internalCommonAnnotationProcessor&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean &apos;org.springframework.context.event.internalEventListenerProcessor&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean &apos;org.springframework.context.event.internalEventListenerProcessor&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean &apos;org.springframework.context.event.internalEventListenerProcessor&apos; to allow for resolving potential circular references
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean &apos;org.springframework.context.event.internalEventListenerProcessor&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean &apos;org.springframework.context.event.internalEventListenerFactory&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean &apos;org.springframework.context.event.internalEventListenerFactory&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean &apos;org.springframework.context.event.internalEventListenerFactory&apos; to allow for resolving potential circular references
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean &apos;org.springframework.context.event.internalEventListenerFactory&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean &apos;teamConfiguration&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean &apos;teamConfiguration&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean &apos;teamConfiguration&apos; to allow for resolving potential circular references
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean &apos;teamConfiguration&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean &apos;org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean &apos;org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean &apos;teamRestController&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean &apos;teamRestController&apos;
+2016-02-04 07:56:57 DEBUG InjectionMetadata:72 - Registered injected element on class [co.uk.team.teamwebservice.controller.TeamRestController]: AutowiredFieldElement for co.uk.team.teamwebservice.service.TeamService co.uk.team.teamwebservice.controller.TeamRestController.teamService
+2016-02-04 07:56:57 DEBUG InjectionMetadata:72 - Registered injected element on class [co.uk.team.teamwebservice.controller.TeamRestController]: AutowiredFieldElement for co.uk.team.teamwebservice.service.AuthorisationService co.uk.team.teamwebservice.controller.TeamRestController.authorisationService
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean &apos;teamRestController&apos; to allow for resolving potential circular references
+2016-02-04 07:56:57 DEBUG InjectionMetadata:86 - Processing injected element of bean &apos;teamRestController&apos;: AutowiredFieldElement for co.uk.team.teamwebservice.service.TeamService co.uk.team.teamwebservice.controller.TeamRestController.teamService
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean &apos;teamService&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean &apos;teamService&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean &apos;teamService&apos; to allow for resolving potential circular references
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean &apos;teamService&apos;
+2016-02-04 07:56:57 DEBUG AutowiredAnnotationBeanPostProcessor:490 - Autowiring by type from bean name &apos;teamRestController&apos; to bean named &apos;teamService&apos;
+2016-02-04 07:56:57 DEBUG InjectionMetadata:86 - Processing injected element of bean &apos;teamRestController&apos;: AutowiredFieldElement for co.uk.team.teamwebservice.service.AuthorisationService co.uk.team.teamwebservice.controller.TeamRestController.authorisationService
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean &apos;authorisationService&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean &apos;authorisationService&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean &apos;authorisationService&apos; to allow for resolving potential circular references
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean &apos;authorisationService&apos;
+2016-02-04 07:56:57 DEBUG AutowiredAnnotationBeanPostProcessor:490 - Autowiring by type from bean name &apos;teamRestController&apos; to bean named &apos;authorisationService&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean &apos;teamRestController&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean &apos;authorisationService&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean &apos;teamService&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean &apos;org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean &apos;org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration&apos;
+2016-02-04 07:56:57 DEBUG InjectionMetadata:72 - Registered injected element on class [org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration$$EnhancerBySpringCGLIB$$23849991]: AutowiredMethodElement for public void org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.setConfigurers(java.util.List)
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean &apos;org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration&apos; to allow for resolving potential circular references
+2016-02-04 07:56:57 DEBUG InjectionMetadata:86 - Processing injected element of bean &apos;org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration&apos;: AutowiredMethodElement for public void org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.setConfigurers(java.util.List)
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean &apos;org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean &apos;simpleControllerHandlerAdapter&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean &apos;simpleControllerHandlerAdapter&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean &apos;org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean &apos;simpleControllerHandlerAdapter&apos; to allow for resolving potential circular references
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean &apos;simpleControllerHandlerAdapter&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean &apos;requestMappingHandlerMapping&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean &apos;requestMappingHandlerMapping&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean &apos;org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean &apos;mvcConversionService&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean &apos;mvcConversionService&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean &apos;org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean &apos;mvcConversionService&apos; to allow for resolving potential circular references
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean &apos;mvcConversionService&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean &apos;mvcResourceUrlProvider&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean &apos;mvcResourceUrlProvider&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean &apos;org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean &apos;mvcResourceUrlProvider&apos; to allow for resolving potential circular references
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean &apos;mvcResourceUrlProvider&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean &apos;mvcContentNegotiationManager&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean &apos;mvcContentNegotiationManager&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean &apos;org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean &apos;mvcContentNegotiationManager&apos; to allow for resolving potential circular references
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean &apos;mvcContentNegotiationManager&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean &apos;requestMappingHandlerMapping&apos; to allow for resolving potential circular references
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:1620 - Invoking afterPropertiesSet() on bean with name &apos;requestMappingHandlerMapping&apos;
+2016-02-04 07:56:57 DEBUG RequestMappingHandlerMapping:175 - Looking for request mappings in application context: org.springframework.web.context.support.GenericWebApplicationContext@6f3b5d16: startup date [Thu Feb 04 07:56:56 GMT 2016]; root of context hierarchy
+2016-02-04 07:56:57 INFO  RequestMappingHandlerMapping:532 - Mapped &quot;{[/team/],methods=[GET],produces=[application/json]}&quot; onto public org.springframework.http.ResponseEntity&lt;java.util.List&lt;co.uk.team.teamwebservice.model.Team&gt;&gt; co.uk.team.teamwebservice.controller.TeamRestController.listAllTeams(java.lang.String)
+2016-02-04 07:56:57 INFO  RequestMappingHandlerMapping:532 - Mapped &quot;{[/team/{id}],methods=[GET],produces=[application/json]}&quot; onto public org.springframework.http.ResponseEntity&lt;co.uk.team.teamwebservice.model.Team&gt; co.uk.team.teamwebservice.controller.TeamRestController.getTeam(long,java.lang.String)
+2016-02-04 07:56:57 INFO  RequestMappingHandlerMapping:532 - Mapped &quot;{[/team/],methods=[POST]}&quot; onto public org.springframework.http.ResponseEntity&lt;java.lang.Void&gt; co.uk.team.teamwebservice.controller.TeamRestController.createTeam(co.uk.team.teamwebservice.model.Team,org.springframework.web.util.UriComponentsBuilder,java.lang.String)
+2016-02-04 07:56:57 INFO  RequestMappingHandlerMapping:532 - Mapped &quot;{[/team/{id}],methods=[PUT]}&quot; onto public org.springframework.http.ResponseEntity&lt;co.uk.team.teamwebservice.model.Team&gt; co.uk.team.teamwebservice.controller.TeamRestController.updateTeam(long,co.uk.team.teamwebservice.model.Team,java.lang.String)
+2016-02-04 07:56:57 INFO  RequestMappingHandlerMapping:532 - Mapped &quot;{[/team/{id}],methods=[DELETE]}&quot; onto public org.springframework.http.ResponseEntity&lt;co.uk.team.teamwebservice.model.Team&gt; co.uk.team.teamwebservice.controller.TeamRestController.deleteTeam(long,java.lang.String)
+2016-02-04 07:56:57 INFO  RequestMappingHandlerMapping:532 - Mapped &quot;{[/team/],methods=[DELETE]}&quot; onto public org.springframework.http.ResponseEntity&lt;co.uk.team.teamwebservice.model.Team&gt; co.uk.team.teamwebservice.controller.TeamRestController.deleteAllTeams(java.lang.String)
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean &apos;requestMappingHandlerMapping&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean &apos;mvcContentNegotiationManager&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean &apos;viewControllerHandlerMapping&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean &apos;viewControllerHandlerMapping&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean &apos;org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean &apos;mvcPathMatcher&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean &apos;mvcPathMatcher&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean &apos;org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean &apos;mvcPathMatcher&apos; to allow for resolving potential circular references
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean &apos;mvcPathMatcher&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean &apos;mvcUrlPathHelper&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean &apos;mvcUrlPathHelper&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean &apos;org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean &apos;mvcUrlPathHelper&apos; to allow for resolving potential circular references
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean &apos;mvcUrlPathHelper&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean &apos;viewControllerHandlerMapping&apos; to allow for resolving potential circular references
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean &apos;viewControllerHandlerMapping&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean &apos;beanNameHandlerMapping&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean &apos;beanNameHandlerMapping&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean &apos;org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean &apos;beanNameHandlerMapping&apos; to allow for resolving potential circular references
+2016-02-04 07:56:57 DEBUG BeanNameUrlHandlerMapping:71 - Looking for URL mappings in application context: org.springframework.web.context.support.GenericWebApplicationContext@6f3b5d16: startup date [Thu Feb 04 07:56:56 GMT 2016]; root of context hierarchy
+2016-02-04 07:56:57 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name &apos;org.springframework.context.annotation.internalConfigurationAnnotationProcessor&apos;: no URL paths identified
+2016-02-04 07:56:57 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name &apos;org.springframework.context.annotation.internalAutowiredAnnotationProcessor&apos;: no URL paths identified
+2016-02-04 07:56:57 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name &apos;org.springframework.context.annotation.internalRequiredAnnotationProcessor&apos;: no URL paths identified
+2016-02-04 07:56:57 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name &apos;org.springframework.context.annotation.internalCommonAnnotationProcessor&apos;: no URL paths identified
+2016-02-04 07:56:57 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name &apos;org.springframework.context.event.internalEventListenerProcessor&apos;: no URL paths identified
+2016-02-04 07:56:57 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name &apos;org.springframework.context.event.internalEventListenerFactory&apos;: no URL paths identified
+2016-02-04 07:56:57 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name &apos;teamConfiguration&apos;: no URL paths identified
+2016-02-04 07:56:57 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name &apos;org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor&apos;: no URL paths identified
+2016-02-04 07:56:57 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name &apos;org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor&apos;: no URL paths identified
+2016-02-04 07:56:57 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name &apos;teamRestController&apos;: no URL paths identified
+2016-02-04 07:56:57 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name &apos;authorisationService&apos;: no URL paths identified
+2016-02-04 07:56:57 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name &apos;teamService&apos;: no URL paths identified
+2016-02-04 07:56:57 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name &apos;org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration&apos;: no URL paths identified
+2016-02-04 07:56:57 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name &apos;simpleControllerHandlerAdapter&apos;: no URL paths identified
+2016-02-04 07:56:57 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name &apos;requestMappingHandlerMapping&apos;: no URL paths identified
+2016-02-04 07:56:57 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name &apos;mvcContentNegotiationManager&apos;: no URL paths identified
+2016-02-04 07:56:57 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name &apos;viewControllerHandlerMapping&apos;: no URL paths identified
+2016-02-04 07:56:57 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name &apos;beanNameHandlerMapping&apos;: no URL paths identified
+2016-02-04 07:56:57 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name &apos;resourceHandlerMapping&apos;: no URL paths identified
+2016-02-04 07:56:57 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name &apos;mvcResourceUrlProvider&apos;: no URL paths identified
+2016-02-04 07:56:57 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name &apos;defaultServletHandlerMapping&apos;: no URL paths identified
+2016-02-04 07:56:57 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name &apos;requestMappingHandlerAdapter&apos;: no URL paths identified
+2016-02-04 07:56:57 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name &apos;mvcConversionService&apos;: no URL paths identified
+2016-02-04 07:56:57 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name &apos;mvcUriComponentsContributor&apos;: no URL paths identified
+2016-02-04 07:56:57 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name &apos;httpRequestHandlerAdapter&apos;: no URL paths identified
+2016-02-04 07:56:57 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name &apos;mvcValidator&apos;: no URL paths identified
+2016-02-04 07:56:57 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name &apos;mvcPathMatcher&apos;: no URL paths identified
+2016-02-04 07:56:57 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name &apos;mvcUrlPathHelper&apos;: no URL paths identified
+2016-02-04 07:56:57 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name &apos;mvcViewResolver&apos;: no URL paths identified
+2016-02-04 07:56:57 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name &apos;handlerExceptionResolver&apos;: no URL paths identified
+2016-02-04 07:56:57 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name &apos;environment&apos;: no URL paths identified
+2016-02-04 07:56:57 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name &apos;systemProperties&apos;: no URL paths identified
+2016-02-04 07:56:57 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name &apos;systemEnvironment&apos;: no URL paths identified
+2016-02-04 07:56:57 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name &apos;servletContext&apos;: no URL paths identified
+2016-02-04 07:56:57 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name &apos;contextParameters&apos;: no URL paths identified
+2016-02-04 07:56:57 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name &apos;contextAttributes&apos;: no URL paths identified
+2016-02-04 07:56:57 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name &apos;org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry&apos;: no URL paths identified
+2016-02-04 07:56:57 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name &apos;messageSource&apos;: no URL paths identified
+2016-02-04 07:56:57 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name &apos;applicationEventMulticaster&apos;: no URL paths identified
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean &apos;beanNameHandlerMapping&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean &apos;resourceHandlerMapping&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean &apos;resourceHandlerMapping&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean &apos;org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean &apos;resourceHandlerMapping&apos; to allow for resolving potential circular references
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean &apos;resourceHandlerMapping&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean &apos;mvcResourceUrlProvider&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean &apos;defaultServletHandlerMapping&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean &apos;defaultServletHandlerMapping&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean &apos;org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean &apos;defaultServletHandlerMapping&apos; to allow for resolving potential circular references
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean &apos;defaultServletHandlerMapping&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean &apos;requestMappingHandlerAdapter&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean &apos;requestMappingHandlerAdapter&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean &apos;org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean &apos;mvcContentNegotiationManager&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean &apos;mvcConversionService&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean &apos;mvcValidator&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean &apos;mvcValidator&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean &apos;org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean &apos;mvcValidator&apos; to allow for resolving potential circular references
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean &apos;mvcValidator&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean &apos;requestMappingHandlerAdapter&apos; to allow for resolving potential circular references
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:1620 - Invoking afterPropertiesSet() on bean with name &apos;requestMappingHandlerAdapter&apos;
+2016-02-04 07:56:57 INFO  RequestMappingHandlerAdapter:532 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@6f3b5d16: startup date [Thu Feb 04 07:56:56 GMT 2016]; root of context hierarchy
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean &apos;requestMappingHandlerAdapter&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean &apos;mvcConversionService&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean &apos;mvcUriComponentsContributor&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean &apos;mvcUriComponentsContributor&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean &apos;org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean &apos;requestMappingHandlerAdapter&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean &apos;mvcConversionService&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean &apos;mvcUriComponentsContributor&apos; to allow for resolving potential circular references
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean &apos;mvcUriComponentsContributor&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean &apos;httpRequestHandlerAdapter&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean &apos;httpRequestHandlerAdapter&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean &apos;org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean &apos;httpRequestHandlerAdapter&apos; to allow for resolving potential circular references
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean &apos;httpRequestHandlerAdapter&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean &apos;mvcValidator&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean &apos;mvcPathMatcher&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean &apos;mvcUrlPathHelper&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean &apos;mvcViewResolver&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean &apos;mvcViewResolver&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean &apos;org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean &apos;mvcContentNegotiationManager&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean &apos;mvcViewResolver&apos; to allow for resolving potential circular references
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:1620 - Invoking afterPropertiesSet() on bean with name &apos;mvcViewResolver&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean &apos;mvcViewResolver&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean &apos;handlerExceptionResolver&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean &apos;handlerExceptionResolver&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean &apos;org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean &apos;mvcContentNegotiationManager&apos;
+2016-02-04 07:56:57 DEBUG ExceptionHandlerExceptionResolver:257 - Looking for exception mappings: org.springframework.web.context.support.GenericWebApplicationContext@6f3b5d16: startup date [Thu Feb 04 07:56:56 GMT 2016]; root of context hierarchy
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean &apos;handlerExceptionResolver&apos; to allow for resolving potential circular references
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean &apos;handlerExceptionResolver&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean &apos;org.springframework.context.event.internalEventListenerFactory&apos;
+2016-02-04 07:56:57 DEBUG GenericWebApplicationContext:764 - Unable to locate LifecycleProcessor with name &apos;lifecycleProcessor&apos;: using default [org.springframework.context.support.DefaultLifecycleProcessor@50de186c]
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean &apos;lifecycleProcessor&apos;
+2016-02-04 07:56:57 DEBUG DefaultListableBeanFactory:250 - Returning cached instance of singleton bean &apos;mvcResourceUrlProvider&apos;
+2016-02-04 07:56:57 DEBUG ResourceUrlProvider:140 - Looking for resource handler mappings
+2016-02-04 07:56:57 DEBUG ResourceUrlProvider:131 - No resource handling mappings found
+2016-02-04 07:56:57 DEBUG PropertySourcesPropertyResolver:81 - Searching for key &apos;spring.liveBeansView.mbeanDomain&apos; in [servletConfigInitParams]
+2016-02-04 07:56:57 DEBUG PropertySourcesPropertyResolver:81 - Searching for key &apos;spring.liveBeansView.mbeanDomain&apos; in [servletContextInitParams]
+2016-02-04 07:56:57 DEBUG PropertySourcesPropertyResolver:81 - Searching for key &apos;spring.liveBeansView.mbeanDomain&apos; in [systemProperties]
+2016-02-04 07:56:57 DEBUG PropertySourcesPropertyResolver:81 - Searching for key &apos;spring.liveBeansView.mbeanDomain&apos; in [systemEnvironment]
+2016-02-04 07:56:57 DEBUG PropertySourcesPropertyResolver:103 - Could not find key &apos;spring.liveBeansView.mbeanDomain&apos; in any property source. Returning [null]
+2016-02-04 07:56:57 DEBUG DefaultCacheAwareContextLoaderDelegate:118 - Storing ApplicationContext in cache under key [[WebMergedContextConfiguration@72d818d1 testClass = TeamWebServiceInterationlTest, locations = &apos;{}&apos;, classes = &apos;{class co.uk.team.teamwebservice.configuration.TeamConfiguration}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, resourceBasePath = &apos;src/main/webapp&apos;, contextLoader = &apos;org.springframework.test.context.web.WebDelegatingSmartContextLoader&apos;, parent = [null]]]
+2016-02-04 07:56:57 DEBUG cache:247 - Spring test ApplicationContext cache statistics: [DefaultContextCache@4671115f size = 1, parentContextCount = 0, hitCount = 0, missCount = 1]
+2016-02-04 07:56:57 DEBUG ServletTestExecutionListener:193 - Setting up MockHttpServletRequest, MockHttpServletResponse, ServletWebRequest, and RequestContextHolder for test context [DefaultTestContext@27c20538 testClass = TeamWebServiceInterationlTest, testInstance = co.uk.team.teamwebservice.TeamWebServiceInterationlTest@36cda2c2, testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@72d818d1 testClass = TeamWebServiceInterationlTest, locations = &apos;{}&apos;, classes = &apos;{class co.uk.team.teamwebservice.configuration.TeamConfiguration}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, resourceBasePath = &apos;src/main/webapp&apos;, contextLoader = &apos;org.springframework.test.context.web.WebDelegatingSmartContextLoader&apos;, parent = [null]]].
+2016-02-04 07:56:57 DEBUG DependencyInjectionTestExecutionListener:81 - Performing dependency injection for test context [[DefaultTestContext@27c20538 testClass = TeamWebServiceInterationlTest, testInstance = co.uk.team.teamwebservice.TeamWebServiceInterationlTest@36cda2c2, testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@72d818d1 testClass = TeamWebServiceInterationlTest, locations = &apos;{}&apos;, classes = &apos;{class co.uk.team.teamwebservice.configuration.TeamConfiguration}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, resourceBasePath = &apos;src/main/webapp&apos;, contextLoader = &apos;org.springframework.test.context.web.WebDelegatingSmartContextLoader&apos;, parent = [null]]]].
+2016-02-04 07:56:57 DEBUG DefaultCacheAwareContextLoaderDelegate:129 - Retrieved ApplicationContext from cache with key [[WebMergedContextConfiguration@72d818d1 testClass = TeamWebServiceInterationlTest, locations = &apos;{}&apos;, classes = &apos;{class co.uk.team.teamwebservice.configuration.TeamConfiguration}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, resourceBasePath = &apos;src/main/webapp&apos;, contextLoader = &apos;org.springframework.test.context.web.WebDelegatingSmartContextLoader&apos;, parent = [null]]]
+2016-02-04 07:56:57 DEBUG cache:247 - Spring test ApplicationContext cache statistics: [DefaultContextCache@4671115f size = 1, parentContextCount = 0, hitCount = 1, missCount = 1]
+2016-02-04 07:56:57 DEBUG AbstractDirtiesContextTestExecutionListener:106 - Before test method: context [DefaultTestContext@27c20538 testClass = TeamWebServiceInterationlTest, testInstance = co.uk.team.teamwebservice.TeamWebServiceInterationlTest@36cda2c2, testMethod = shouldReturnBadRequest@TeamWebServiceInterationlTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@72d818d1 testClass = TeamWebServiceInterationlTest, locations = &apos;{}&apos;, classes = &apos;{class co.uk.team.teamwebservice.configuration.TeamConfiguration}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, resourceBasePath = &apos;src/main/webapp&apos;, contextLoader = &apos;org.springframework.test.context.web.WebDelegatingSmartContextLoader&apos;, parent = [null]]], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null].
+Testing Bad request ----------
+2016-02-04 07:56:57 DEBUG RestTemplate:78 - Created GET request for &quot;http://localhost:8080/TeamWebService/team/1&quot;
+2016-02-04 07:56:58 DEBUG RestTemplate:715 - Setting request Accept header to [application/json, application/*+json]
+2016-02-04 07:56:58 DEBUG RestTemplate:627 - GET request for &quot;http://localhost:8080/TeamWebService/team/1&quot; resulted in 400 (Missing request header &amp;#39;Authorization&amp;#39; for method parameter of type String); invoking error handler
+2016-02-04 07:56:58 DEBUG AbstractDirtiesContextTestExecutionListener:106 - After test method: context [DefaultTestContext@27c20538 testClass = TeamWebServiceInterationlTest, testInstance = co.uk.team.teamwebservice.TeamWebServiceInterationlTest@36cda2c2, testMethod = shouldReturnBadRequest@TeamWebServiceInterationlTest, testException = junit.framework.ComparisonFailure: expected:&lt;400 [Bad Request]&gt; but was:&lt;400 [Missing request header &amp;#39;Authorization&amp;#39; for method parameter of type String]&gt;, mergedContextConfiguration = [WebMergedContextConfiguration@72d818d1 testClass = TeamWebServiceInterationlTest, locations = &apos;{}&apos;, classes = &apos;{class co.uk.team.teamwebservice.configuration.TeamConfiguration}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, resourceBasePath = &apos;src/main/webapp&apos;, contextLoader = &apos;org.springframework.test.context.web.WebDelegatingSmartContextLoader&apos;, parent = [null]]], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null].
+2016-02-04 07:56:58 DEBUG ServletTestExecutionListener:160 - Resetting RequestContextHolder for test context [DefaultTestContext@27c20538 testClass = TeamWebServiceInterationlTest, testInstance = co.uk.team.teamwebservice.TeamWebServiceInterationlTest@36cda2c2, testMethod = shouldReturnBadRequest@TeamWebServiceInterationlTest, testException = junit.framework.ComparisonFailure: expected:&lt;400 [Bad Request]&gt; but was:&lt;400 [Missing request header &amp;#39;Authorization&amp;#39; for method parameter of type String]&gt;, mergedContextConfiguration = [WebMergedContextConfiguration@72d818d1 testClass = TeamWebServiceInterationlTest, locations = &apos;{}&apos;, classes = &apos;{class co.uk.team.teamwebservice.configuration.TeamConfiguration}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, resourceBasePath = &apos;src/main/webapp&apos;, contextLoader = &apos;org.springframework.test.context.web.WebDelegatingSmartContextLoader&apos;, parent = [null]]].
+</system-out>
+  </testcase>
+</testsuite>
